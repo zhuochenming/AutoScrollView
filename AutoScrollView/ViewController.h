@@ -2,8 +2,8 @@
 //  ViewController.h
 //  AutoScrollView
 //
-//  Created by boleketang on 16/2/26.
-//  Copyright © 2016年 zhuochenming. All rights reserved.
+//  Created by Zhuochenming on 16/2/26.
+//  Copyright © 2016年 Zhuochenming. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

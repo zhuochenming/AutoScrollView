@@ -14,7 +14,7 @@
 		4FEAA1A41C8031C600528D60 /* AutoScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1A31C8031C600528D60 /* AutoScrollViewTests.m */; };
 		4FEAA1AF1C8031C600528D60 /* AutoScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1AE1C8031C600528D60 /* AutoScrollViewUITests.m */; };
 		4FEAA1BE1C8031FF00528D60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1BD1C8031FF00528D60 /* ViewController.m */; };
-		4FEAA1C11C8032A300528D60 /* AutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1C01C8032A300528D60 /* AutoScrollView.m */; };
+		4FEAA1C11C8032A300528D60 /* KeyboardFitScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1C01C8032A300528D60 /* KeyboardFitScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		4FEAA1B01C8031C600528D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEAA1BC1C8031FF00528D60 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4FEAA1BD1C8031FF00528D60 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4FEAA1BF1C8032A300528D60 /* AutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollView.h; sourceTree = "<group>"; };
-		4FEAA1C01C8032A300528D60 /* AutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollView.m; sourceTree = "<group>"; };
+		4FEAA1BF1C8032A300528D60 /* KeyboardFitScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardFitScrollView.h; sourceTree = "<group>"; };
+		4FEAA1C01C8032A300528D60 /* KeyboardFitScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardFitScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 				4FEAA18A1C8031C600528D60 /* AppDelegate.m */,
 				4FEAA1BC1C8031FF00528D60 /* ViewController.h */,
 				4FEAA1BD1C8031FF00528D60 /* ViewController.m */,
-				4FEAA1BF1C8032A300528D60 /* AutoScrollView.h */,
-				4FEAA1C01C8032A300528D60 /* AutoScrollView.m */,
+				4FEAA1BF1C8032A300528D60 /* KeyboardFitScrollView.h */,
+				4FEAA1C01C8032A300528D60 /* KeyboardFitScrollView.m */,
 				4FEAA1951C8031C600528D60 /* Assets.xcassets */,
 				4FEAA1971C8031C600528D60 /* LaunchScreen.storyboard */,
 				4FEAA19A1C8031C600528D60 /* Info.plist */,
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FEAA1C11C8032A300528D60 /* AutoScrollView.m in Sources */,
+				4FEAA1C11C8032A300528D60 /* KeyboardFitScrollView.m in Sources */,
 				4FEAA1BE1C8031FF00528D60 /* ViewController.m in Sources */,
 				4FEAA18B1C8031C600528D60 /* AppDelegate.m in Sources */,
 				4FEAA1881C8031C600528D60 /* main.m in Sources */,
@@ -493,6 +493,7 @@
 				4FEAA1B51C8031C600528D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FEAA1B61C8031C600528D60 /* Build configuration list for PBXNativeTarget "AutoScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +502,7 @@
 				4FEAA1B81C8031C600528D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FEAA1B91C8031C600528D60 /* Build configuration list for PBXNativeTarget "AutoScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +511,7 @@
 				4FEAA1BB1C8031C600528D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,12 +2,12 @@
 //  ViewController.m
 //  AutoScrollView
 //
-//  Created by boleketang on 16/2/26.
-//  Copyright © 2016年 zhuochenming. All rights reserved.
+//  Created by Zhuochenming on 16/2/26.
+//  Copyright © 2016年 Zhuochenming. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "AutoScrollView.h"
+#import "KeyboardFitScrollView.h"
 
 @interface ViewController ()
 
@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    AutoScrollView *scrollView = [[AutoScrollView alloc] initWithFrame:self.view.frame];
+    KeyboardFitScrollView *scrollView = [[KeyboardFitScrollView alloc] initWithFrame:self.view.frame];
     scrollView.backgroundColor = [UIColor grayColor];
     scrollView.contentSize = CGSizeMake(0, 0);
     
@@ -34,9 +34,14 @@
     textFieldThree.backgroundColor=[UIColor orangeColor];
     [scrollView addSubview:textFieldThree];
     
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.frame = CGRectMake(10, 600, 300, 50);
+    button.backgroundColor = [UIColor redColor];
+    [scrollView addSubview:button];
+    
     [self.view addSubview:scrollView];
-
-    [scrollView autoContentSize];
+    
+    [scrollView autoContentSizeWithLastView:button isNeedPopkeybouard:YES];
 
     // Do any additional setup after loading the view.
 }
